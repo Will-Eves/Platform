@@ -74,13 +74,6 @@ namespace Platform {
 	void Print(std::string data, bool brk = false);
 }
 
-#define CONSOLE_BLACK Platform::Color(0)
-#define CONSOLE_RED Platform::Color(1)
-#define CONSOLE_GREEN Platform::Color(2)
-#define CONSOLE_BLUE Platform::Color(3)
-#define CONSOLE_WHITE Platform::Color(4)
-#define CONSOLE_YELLOW Platform::Color(5)
-
 #ifdef WINDOWS
 	#ifndef WINDOWS_SUPPORT
 		#error "Windows not supported!"
