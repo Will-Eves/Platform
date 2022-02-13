@@ -11,10 +11,17 @@ To enable a platform in the build, define its support macro
 
 # Support Macros
 Windows : WINDOWS_SUPPORT
+
 Mac : MAC_SUPPORT
+
 Maccatalyst : MACCATALYST_SUPPORT
+
 iOS : IOS_SUPPORT
+
 Linux : LINUX_SUPPORT
+
 Unix : UNIX_SUPPORT
+
 Posix : POSIX_SUPPORT
+
 Android : ANDROID_SUPPORT
