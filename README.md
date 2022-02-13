@@ -7,7 +7,7 @@ A solution for cross-platform c++ apps, offering functions for managing the cons
 This project is helpfull if you need to manage large cross-platform c++ apps
 
 # How to use
-To enable a platform in the build, define its support macro
+First, you should enable your target platforms. You can do this by defining their support macros before including platform.h
 
 # Support Macros
 Windows : WINDOWS_SUPPORT
